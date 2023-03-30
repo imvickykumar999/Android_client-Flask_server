@@ -18,7 +18,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
-    private String url = "http://" + "10.0.2.2" + ":" + 5000 + "/";
+    private String url = "http://" + "127.0.0.1" + ":" + 5000 + "/";
     private String postBodyString;
     private MediaType mediaType;
     private RequestBody requestBody;
